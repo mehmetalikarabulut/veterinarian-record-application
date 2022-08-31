@@ -23,9 +23,9 @@ You can run the application by following the instructions below:
 
   +	MySQL was used when writing the application. The necessary setup for the database should be done at https://www.apachefriends.org/tr/
   
-  +	After making sure that the following settings are in the "application.properties" file, you can run the application on port 8090 using Postman.
+  +	After making sure that the following settings are in the "application.properties" file you can run the application on port 8090 using Postman.
   
- `server.port=8090`
+`server.port=8090`
 
 `spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver`
 
