@@ -4,20 +4,42 @@ This repo includes veterinarian record application.
  
 This application contains the following restrictions:
  
-  •	Animal presentation can be made. (species, genus, name, age, definition)
+  +	Animal presentation can be made. (species, genus, name, age, definition)
 
-  •	Pet owner presentation can be made. (name, surname, contact information, phone, e-mail)
+  +	Pet owner presentation can be made. (name, surname, contact information, phone, e-mail)
 
-  •	The animal can be searched by name or the owner's name.
+  +	The animal can be searched by name or the owner's name.
 
-  •	For one animal owner, n animal definitions can be made.
+  +	For one animal owner, n animal definitions can be made.
 
-  •	Changes can be made to an existing record.
+  +	Changes can be made to an existing record.
 
-  •	Existing records can be examined.
+  +	Existing records can be examined.
 
-  •	An existing record can be deleted.
+  +	An existing record can be deleted.
   
+
+You can run the application by following the instructions below:
+
+  +	MySQL was used when writing the application. The necessary setup for the database should be done at https://www.apachefriends.org/tr/
+  
+  +	After making sure that the following settings are in the "application.properties" file, you can run the application on port 8090 using Postman.
+  
+ `server.port=8090`
+
+`spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver`
+
+`spring.datasource.url=jdbc:mysql://localhost/veterinarian`
+
+`spring.datasource.username=root`
+
+`spring.datasource.password=`
+
+`spring.jpa.hibernate.ddl-auto=update`
+
+`spring.jpa.show-sql=true`
+  
+  +	Necessary information about Postman is given in the images below.
   
 Database tables are given below.
   
